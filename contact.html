@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Harvest Havens</title>
+    <link rel="stylesheet" href="css/contact.css"> 
+</head>
+<body>
+
+    <!-- this is our contact page header -->
+    <header>
+        <h1>Contact Us</h1>
+        <p>We’d love to hear from you! Whether you have questions about our farm, petting zoo, or products, feel free to reach out.</p>
+    </header>
+
+    <!-- this is our contact information section -->
+    <section class="contact-info">
+        <h2>Get In Touch</h2>
+
+        <!-- this is our contact form -->
+        <form action="submit_form.php" method="POST" class="contact-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email address">
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" required placeholder="Write your message here" rows="5"></textarea>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+
+        <!--this is the alternative contact methods -->
+        <div class="other-contacts">
+            <h3>Other Ways to Reach Us:</h3>
+            <p><strong>Email:</strong> info@harvesthavens.com</p>
+            <p><strong>Phone:</strong> +4477567900</p>
+            <p><strong>Address:</strong><p>Harvest Havens The Greenfields Farm Lockerbie, Dumfries and Galloway Scotland, DG11 2RU United Kingdom </p>
+            <p><strong>Follow us on social media:</strong></p>
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com">Facebook</a></li>
+                <li><a href="https://www.instagram.com">Instagram</a></li>
+                <li><a href="https://www.twitter.com">Twitter</a></li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Harvest havens  | <a href="privacy policy.html">Privacy Policy</a> | <a href="terms of service.html">Terms of Service</a></p>
+    </footer>
